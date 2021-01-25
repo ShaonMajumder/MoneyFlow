@@ -148,9 +148,35 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 13. composer update
 
+14. ```bash
+    npm install font-awesome --save
+    ```
+
+15. Then edit the `resources/assets/sass/app.scss` file and add at the top this line:
+
+    ```php
+    @import "node_modules/font-awesome/scss/font-awesome.scss";
+    ```
+
+16. ```bash
+    npm run dev
+    ```
+
+
+
 Reading
 
 mix can not be recognized -
 
 https://stackoverflow.com/questions/65779378/mix-is-not-recognized-as-an-internal-or-external-command-in-laravel-8-new-inst
+
+Tables - https://getbootstrap.com/docs/4.0/content/tables/
+
+frontend framework - https://laravel.com/docs/7.x/frontend
+
+upgrade 7 to 8 - https://laravel.com/docs/8.x/upgrade
+
+fontawesome - https://stackoverflow.com/questions/43451509/how-to-install-font-awesome-in-laravel-mix/49716723
+
+inline bootstrap - https://getbootstrap.com/docs/4.0/utilities/flex/
 
